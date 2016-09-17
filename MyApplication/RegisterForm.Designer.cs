@@ -43,7 +43,7 @@
             this.UsernameLabel.AutoSize = true;
             this.UsernameLabel.Location = new System.Drawing.Point(12, 15);
             this.UsernameLabel.Name = "UsernameLabel";
-            this.UsernameLabel.Size = new System.Drawing.Size(65, 13);
+            this.UsernameLabel.Size = new System.Drawing.Size(122, 26);
             this.UsernameLabel.TabIndex = 0;
             this.UsernameLabel.Text = "&Username";
             // 
@@ -53,7 +53,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.UsernameTextBox.Location = new System.Drawing.Point(83, 12);
             this.UsernameTextBox.Name = "UsernameTextBox";
-            this.UsernameTextBox.Size = new System.Drawing.Size(155, 21);
+            this.UsernameTextBox.Size = new System.Drawing.Size(229, 34);
             this.UsernameTextBox.TabIndex = 1;
             this.UsernameTextBox.TextChanged += new System.EventHandler(this.UsernameTextBox_TextChanged);
             // 
@@ -64,7 +64,7 @@
             this.PasswordTextBox.Location = new System.Drawing.Point(83, 39);
             this.PasswordTextBox.Name = "PasswordTextBox";
             this.PasswordTextBox.PasswordChar = '*';
-            this.PasswordTextBox.Size = new System.Drawing.Size(155, 21);
+            this.PasswordTextBox.Size = new System.Drawing.Size(229, 34);
             this.PasswordTextBox.TabIndex = 3;
             // 
             // FullNameTextBox
@@ -73,7 +73,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.FullNameTextBox.Location = new System.Drawing.Point(83, 66);
             this.FullNameTextBox.Name = "FullNameTextBox";
-            this.FullNameTextBox.Size = new System.Drawing.Size(155, 21);
+            this.FullNameTextBox.Size = new System.Drawing.Size(229, 34);
             this.FullNameTextBox.TabIndex = 5;
             // 
             // PasswordLabel
@@ -81,7 +81,7 @@
             this.PasswordLabel.AutoSize = true;
             this.PasswordLabel.Location = new System.Drawing.Point(12, 42);
             this.PasswordLabel.Name = "PasswordLabel";
-            this.PasswordLabel.Size = new System.Drawing.Size(61, 13);
+            this.PasswordLabel.Size = new System.Drawing.Size(113, 26);
             this.PasswordLabel.TabIndex = 2;
             this.PasswordLabel.Text = "&Password";
             // 
@@ -90,7 +90,7 @@
             this.FullNameLabel.AutoSize = true;
             this.FullNameLabel.Location = new System.Drawing.Point(12, 69);
             this.FullNameLabel.Name = "FullNameLabel";
-            this.FullNameLabel.Size = new System.Drawing.Size(59, 13);
+            this.FullNameLabel.Size = new System.Drawing.Size(114, 26);
             this.FullNameLabel.TabIndex = 4;
             this.FullNameLabel.Text = "&FullName";
             // 
@@ -116,9 +116,9 @@
             // 
             // RegisterForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(250, 127);
+            this.ClientSize = new System.Drawing.Size(324, 124);
             this.Controls.Add(this.SubmitButton);
             this.Controls.Add(this.ResetButton);
             this.Controls.Add(this.FullNameLabel);
@@ -128,7 +128,8 @@
             this.Controls.Add(this.UsernameTextBox);
             this.Controls.Add(this.UsernameLabel);
             this.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MinimumSize = new System.Drawing.Size(266, 166);
+            this.MaximumSize = new System.Drawing.Size(350, 195);
+            this.MinimumSize = new System.Drawing.Size(350, 195);
             this.Name = "RegisterForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
