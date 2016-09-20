@@ -105,5 +105,10 @@ namespace MyApplication
         {
 
         }
+
+        private void CloseButton_Click(object sender, System.EventArgs e)
+        {
+            Hide();
+        }
     }
 }

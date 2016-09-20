@@ -36,14 +36,16 @@
             this.FullNameLabel = new System.Windows.Forms.Label();
             this.ResetButton = new System.Windows.Forms.Button();
             this.SubmitButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.CloseButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // UsernameLabel
             // 
             this.UsernameLabel.AutoSize = true;
-            this.UsernameLabel.Location = new System.Drawing.Point(12, 15);
+            this.UsernameLabel.Location = new System.Drawing.Point(19, 48);
             this.UsernameLabel.Name = "UsernameLabel";
-            this.UsernameLabel.Size = new System.Drawing.Size(122, 26);
+            this.UsernameLabel.Size = new System.Drawing.Size(65, 13);
             this.UsernameLabel.TabIndex = 0;
             this.UsernameLabel.Text = "&Username";
             // 
@@ -51,9 +53,9 @@
             // 
             this.UsernameTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.UsernameTextBox.Location = new System.Drawing.Point(83, 12);
+            this.UsernameTextBox.Location = new System.Drawing.Point(96, 45);
             this.UsernameTextBox.Name = "UsernameTextBox";
-            this.UsernameTextBox.Size = new System.Drawing.Size(229, 34);
+            this.UsernameTextBox.Size = new System.Drawing.Size(234, 21);
             this.UsernameTextBox.TabIndex = 1;
             this.UsernameTextBox.TextChanged += new System.EventHandler(this.UsernameTextBox_TextChanged);
             // 
@@ -61,42 +63,42 @@
             // 
             this.PasswordTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.PasswordTextBox.Location = new System.Drawing.Point(83, 39);
+            this.PasswordTextBox.Location = new System.Drawing.Point(96, 72);
             this.PasswordTextBox.Name = "PasswordTextBox";
             this.PasswordTextBox.PasswordChar = '*';
-            this.PasswordTextBox.Size = new System.Drawing.Size(229, 34);
+            this.PasswordTextBox.Size = new System.Drawing.Size(234, 21);
             this.PasswordTextBox.TabIndex = 3;
             // 
             // FullNameTextBox
             // 
             this.FullNameTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.FullNameTextBox.Location = new System.Drawing.Point(83, 66);
+            this.FullNameTextBox.Location = new System.Drawing.Point(96, 99);
             this.FullNameTextBox.Name = "FullNameTextBox";
-            this.FullNameTextBox.Size = new System.Drawing.Size(229, 34);
+            this.FullNameTextBox.Size = new System.Drawing.Size(234, 21);
             this.FullNameTextBox.TabIndex = 5;
             // 
             // PasswordLabel
             // 
             this.PasswordLabel.AutoSize = true;
-            this.PasswordLabel.Location = new System.Drawing.Point(12, 42);
+            this.PasswordLabel.Location = new System.Drawing.Point(19, 75);
             this.PasswordLabel.Name = "PasswordLabel";
-            this.PasswordLabel.Size = new System.Drawing.Size(113, 26);
+            this.PasswordLabel.Size = new System.Drawing.Size(61, 13);
             this.PasswordLabel.TabIndex = 2;
             this.PasswordLabel.Text = "&Password";
             // 
             // FullNameLabel
             // 
             this.FullNameLabel.AutoSize = true;
-            this.FullNameLabel.Location = new System.Drawing.Point(12, 69);
+            this.FullNameLabel.Location = new System.Drawing.Point(19, 102);
             this.FullNameLabel.Name = "FullNameLabel";
-            this.FullNameLabel.Size = new System.Drawing.Size(114, 26);
+            this.FullNameLabel.Size = new System.Drawing.Size(59, 13);
             this.FullNameLabel.TabIndex = 4;
             this.FullNameLabel.Text = "&FullName";
             // 
             // ResetButton
             // 
-            this.ResetButton.Location = new System.Drawing.Point(164, 93);
+            this.ResetButton.Location = new System.Drawing.Point(177, 126);
             this.ResetButton.Name = "ResetButton";
             this.ResetButton.Size = new System.Drawing.Size(75, 23);
             this.ResetButton.TabIndex = 7;
@@ -106,7 +108,7 @@
             // 
             // SubmitButton
             // 
-            this.SubmitButton.Location = new System.Drawing.Point(83, 93);
+            this.SubmitButton.Location = new System.Drawing.Point(96, 126);
             this.SubmitButton.Name = "SubmitButton";
             this.SubmitButton.Size = new System.Drawing.Size(75, 23);
             this.SubmitButton.TabIndex = 6;
@@ -114,11 +116,35 @@
             this.SubmitButton.UseVisualStyleBackColor = true;
             this.SubmitButton.Click += new System.EventHandler(this.SubmitButton_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(10, 17);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(318, 13);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "&Enter your username and password to Register:";
+            // 
+            // CloseButton
+            // 
+            this.CloseButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.CloseButton.Location = new System.Drawing.Point(258, 126);
+            this.CloseButton.Name = "CloseButton";
+            this.CloseButton.Size = new System.Drawing.Size(75, 23);
+            this.CloseButton.TabIndex = 9;
+            this.CloseButton.Text = "&Close";
+            this.CloseButton.UseVisualStyleBackColor = true;
+            this.CloseButton.Click += new System.EventHandler(this.CloseButton_Click);
+            // 
             // RegisterForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 26F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(324, 124);
+            this.ClientSize = new System.Drawing.Size(344, 157);
+            this.Controls.Add(this.CloseButton);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.SubmitButton);
             this.Controls.Add(this.ResetButton);
             this.Controls.Add(this.FullNameLabel);
@@ -128,8 +154,8 @@
             this.Controls.Add(this.UsernameTextBox);
             this.Controls.Add(this.UsernameLabel);
             this.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MaximumSize = new System.Drawing.Size(350, 195);
-            this.MinimumSize = new System.Drawing.Size(350, 195);
+            this.MaximumSize = new System.Drawing.Size(360, 195);
+            this.MinimumSize = new System.Drawing.Size(360, 195);
             this.Name = "RegisterForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
@@ -149,6 +175,8 @@
 		private System.Windows.Forms.Label FullNameLabel;
 		private System.Windows.Forms.Button ResetButton;
 		private System.Windows.Forms.Button SubmitButton;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button CloseButton;
 	}
 }
 

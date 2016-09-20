@@ -42,9 +42,9 @@
             // 
             this.UsernametextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.UsernametextBox.Location = new System.Drawing.Point(110, 50);
+            this.UsernametextBox.Location = new System.Drawing.Point(95, 45);
             this.UsernametextBox.Name = "UsernametextBox";
-            this.UsernametextBox.Size = new System.Drawing.Size(176, 34);
+            this.UsernametextBox.Size = new System.Drawing.Size(237, 21);
             this.UsernametextBox.TabIndex = 2;
             this.UsernametextBox.TextChanged += new System.EventHandler(this.UsernametextBox_TextChanged);
             // 
@@ -52,10 +52,10 @@
             // 
             this.PasswordtextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.PasswordtextBox.Location = new System.Drawing.Point(110, 77);
+            this.PasswordtextBox.Location = new System.Drawing.Point(95, 72);
             this.PasswordtextBox.Name = "PasswordtextBox";
             this.PasswordtextBox.PasswordChar = '*';
-            this.PasswordtextBox.Size = new System.Drawing.Size(176, 34);
+            this.PasswordtextBox.Size = new System.Drawing.Size(237, 21);
             this.PasswordtextBox.TabIndex = 4;
             this.PasswordtextBox.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
@@ -65,20 +65,21 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Infolabel.AutoSize = true;
             this.Infolabel.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Infolabel.Location = new System.Drawing.Point(12, 21);
+            this.Infolabel.Location = new System.Drawing.Point(10, 17);
             this.Infolabel.Name = "Infolabel";
-            this.Infolabel.Size = new System.Drawing.Size(568, 26);
+            this.Infolabel.Size = new System.Drawing.Size(296, 13);
             this.Infolabel.TabIndex = 0;
             this.Infolabel.Text = "&Enter your username and password to login:";
+            this.Infolabel.Click += new System.EventHandler(this.Infolabel_Click);
             // 
             // Usernamelabel
             // 
             this.Usernamelabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Usernamelabel.AutoSize = true;
-            this.Usernamelabel.Location = new System.Drawing.Point(30, 53);
+            this.Usernamelabel.Location = new System.Drawing.Point(18, 48);
             this.Usernamelabel.Name = "Usernamelabel";
-            this.Usernamelabel.Size = new System.Drawing.Size(122, 26);
+            this.Usernamelabel.Size = new System.Drawing.Size(65, 13);
             this.Usernamelabel.TabIndex = 1;
             this.Usernamelabel.Text = "&Username";
             this.Usernamelabel.Click += new System.EventHandler(this.label2_Click);
@@ -88,9 +89,9 @@
             this.Passwordlabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Passwordlabel.AutoSize = true;
-            this.Passwordlabel.Location = new System.Drawing.Point(30, 80);
+            this.Passwordlabel.Location = new System.Drawing.Point(19, 75);
             this.Passwordlabel.Name = "Passwordlabel";
-            this.Passwordlabel.Size = new System.Drawing.Size(113, 26);
+            this.Passwordlabel.Size = new System.Drawing.Size(61, 13);
             this.Passwordlabel.TabIndex = 3;
             this.Passwordlabel.Text = "&Password";
             // 
@@ -98,9 +99,9 @@
             // 
             this.Loginbutton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Loginbutton.Location = new System.Drawing.Point(42, 116);
+            this.Loginbutton.Location = new System.Drawing.Point(96, 126);
             this.Loginbutton.Name = "Loginbutton";
-            this.Loginbutton.Size = new System.Drawing.Size(78, 23);
+            this.Loginbutton.Size = new System.Drawing.Size(75, 23);
             this.Loginbutton.TabIndex = 5;
             this.Loginbutton.Text = "&Login";
             this.Loginbutton.UseVisualStyleBackColor = true;
@@ -110,9 +111,9 @@
             // 
             this.Cancelbutton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Cancelbutton.Location = new System.Drawing.Point(204, 116);
+            this.Cancelbutton.Location = new System.Drawing.Point(258, 126);
             this.Cancelbutton.Name = "Cancelbutton";
-            this.Cancelbutton.Size = new System.Drawing.Size(78, 23);
+            this.Cancelbutton.Size = new System.Drawing.Size(75, 23);
             this.Cancelbutton.TabIndex = 6;
             this.Cancelbutton.Text = "Re&gister";
             this.Cancelbutton.UseVisualStyleBackColor = true;
@@ -120,7 +121,7 @@
             // 
             // Resetbutton
             // 
-            this.Resetbutton.Location = new System.Drawing.Point(123, 116);
+            this.Resetbutton.Location = new System.Drawing.Point(177, 126);
             this.Resetbutton.Name = "Resetbutton";
             this.Resetbutton.Size = new System.Drawing.Size(75, 23);
             this.Resetbutton.TabIndex = 7;
@@ -130,9 +131,9 @@
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 26F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(324, 124);
+            this.ClientSize = new System.Drawing.Size(344, 157);
             this.Controls.Add(this.Resetbutton);
             this.Controls.Add(this.Cancelbutton);
             this.Controls.Add(this.Loginbutton);
@@ -142,8 +143,8 @@
             this.Controls.Add(this.PasswordtextBox);
             this.Controls.Add(this.UsernametextBox);
             this.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MaximumSize = new System.Drawing.Size(350, 195);
-            this.MinimumSize = new System.Drawing.Size(350, 195);
+            this.MaximumSize = new System.Drawing.Size(360, 195);
+            this.MinimumSize = new System.Drawing.Size(360, 195);
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginForm";

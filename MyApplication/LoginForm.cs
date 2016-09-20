@@ -123,6 +123,11 @@ namespace MyApplication
 
             UsernametextBox.Focus();
         }
+
+        private void Infolabel_Click(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }
 
