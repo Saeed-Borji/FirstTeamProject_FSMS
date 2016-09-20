@@ -35,8 +35,7 @@ namespace MyApplication
 
         private void updateProfieToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UpdateProfile frmUpdateProfile = new UpdateProfile();
-            frmUpdateProfile.Show();
+            
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -61,6 +60,18 @@ namespace MyApplication
         private void toolStripStatusLabel1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void descriptionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UpdateProfile frmUpdateProfile = new UpdateProfile();
+            frmUpdateProfile.Show();
+        }
+
+        private void changePasswordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChangeForm frmChangeForm = new ChangeForm();
+            frmChangeForm.Show();
         }
     }
 }
