@@ -34,7 +34,11 @@ namespace MyApplication
 
         private void ResetButton_Click(object sender, EventArgs e)
         {
-           
+            OldPasswordTextBox.Text = string.Empty;
+            NewPasswordTextBox.Text = string.Empty;
+            ReNewPasswordTextBox.Text = string.Empty;
+
+            OldPasswordTextBox.Focus();
         }
 
         private void ChangeForm_Load(object sender, EventArgs e)
