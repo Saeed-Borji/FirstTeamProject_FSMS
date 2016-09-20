@@ -39,6 +39,7 @@ namespace MyApplication
             ReNewPasswordTextBox.Text = string.Empty;
 
             OldPasswordTextBox.Focus();
+
         }
 
         private void ChangeForm_Load(object sender, EventArgs e)
