@@ -41,9 +41,10 @@
             // OldPasswordLabel
             // 
             this.OldPasswordLabel.AutoSize = true;
-            this.OldPasswordLabel.Location = new System.Drawing.Point(12, 9);
+            this.OldPasswordLabel.Location = new System.Drawing.Point(24, 17);
+            this.OldPasswordLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.OldPasswordLabel.Name = "OldPasswordLabel";
-            this.OldPasswordLabel.Size = new System.Drawing.Size(118, 13);
+            this.OldPasswordLabel.Size = new System.Drawing.Size(238, 25);
             this.OldPasswordLabel.TabIndex = 0;
             this.OldPasswordLabel.Text = "&Enter   old      password";
             this.OldPasswordLabel.Click += new System.EventHandler(this.label1_Click);
@@ -51,9 +52,10 @@
             // NewPaswordLabel
             // 
             this.NewPaswordLabel.AutoSize = true;
-            this.NewPaswordLabel.Location = new System.Drawing.Point(12, 38);
+            this.NewPaswordLabel.Location = new System.Drawing.Point(24, 73);
+            this.NewPaswordLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.NewPaswordLabel.Name = "NewPaswordLabel";
-            this.NewPaswordLabel.Size = new System.Drawing.Size(118, 13);
+            this.NewPaswordLabel.Size = new System.Drawing.Size(236, 25);
             this.NewPaswordLabel.TabIndex = 2;
             this.NewPaswordLabel.Text = "&Enter   new    password";
             // 
@@ -62,41 +64,52 @@
             this.ReEnterNewPasswordLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ReEnterNewPasswordLabel.AutoSize = true;
-            this.ReEnterNewPasswordLabel.Location = new System.Drawing.Point(12, 68);
+            this.ReEnterNewPasswordLabel.Location = new System.Drawing.Point(24, 131);
+            this.ReEnterNewPasswordLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.ReEnterNewPasswordLabel.Name = "ReEnterNewPasswordLabel";
-            this.ReEnterNewPasswordLabel.Size = new System.Drawing.Size(119, 13);
+            this.ReEnterNewPasswordLabel.Size = new System.Drawing.Size(238, 25);
             this.ReEnterNewPasswordLabel.TabIndex = 4;
             this.ReEnterNewPasswordLabel.Text = "&Re-enter new password";
             // 
             // OldPasswordTextBox
             // 
-            this.OldPasswordTextBox.Location = new System.Drawing.Point(133, 6);
+            this.OldPasswordTextBox.Font = new System.Drawing.Font("Verdana", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OldPasswordTextBox.Location = new System.Drawing.Point(266, 12);
+            this.OldPasswordTextBox.Margin = new System.Windows.Forms.Padding(6);
             this.OldPasswordTextBox.Name = "OldPasswordTextBox";
-            this.OldPasswordTextBox.Size = new System.Drawing.Size(168, 20);
+            this.OldPasswordTextBox.PasswordChar = '*';
+            this.OldPasswordTextBox.Size = new System.Drawing.Size(332, 33);
             this.OldPasswordTextBox.TabIndex = 1;
             this.OldPasswordTextBox.TextChanged += new System.EventHandler(this.OldPasswordTextBox_TextChanged);
             // 
             // NewPasswordTextBox
             // 
-            this.NewPasswordTextBox.Location = new System.Drawing.Point(133, 35);
+            this.NewPasswordTextBox.Font = new System.Drawing.Font("Verdana", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NewPasswordTextBox.Location = new System.Drawing.Point(266, 67);
+            this.NewPasswordTextBox.Margin = new System.Windows.Forms.Padding(6);
             this.NewPasswordTextBox.Name = "NewPasswordTextBox";
-            this.NewPasswordTextBox.Size = new System.Drawing.Size(168, 20);
+            this.NewPasswordTextBox.PasswordChar = '*';
+            this.NewPasswordTextBox.Size = new System.Drawing.Size(332, 33);
             this.NewPasswordTextBox.TabIndex = 3;
             this.NewPasswordTextBox.TextChanged += new System.EventHandler(this.NewPasswordTextBox_TextChanged);
             // 
             // ReNewPasswordTextBox
             // 
-            this.ReNewPasswordTextBox.Location = new System.Drawing.Point(133, 61);
+            this.ReNewPasswordTextBox.Font = new System.Drawing.Font("Verdana", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ReNewPasswordTextBox.Location = new System.Drawing.Point(266, 117);
+            this.ReNewPasswordTextBox.Margin = new System.Windows.Forms.Padding(6);
             this.ReNewPasswordTextBox.Name = "ReNewPasswordTextBox";
-            this.ReNewPasswordTextBox.Size = new System.Drawing.Size(168, 20);
+            this.ReNewPasswordTextBox.PasswordChar = '*';
+            this.ReNewPasswordTextBox.Size = new System.Drawing.Size(332, 33);
             this.ReNewPasswordTextBox.TabIndex = 5;
             this.ReNewPasswordTextBox.TextChanged += new System.EventHandler(this.ReNewPasswordTextBox_TextChanged);
             // 
             // SaveButton
             // 
-            this.SaveButton.Location = new System.Drawing.Point(133, 87);
+            this.SaveButton.Location = new System.Drawing.Point(266, 167);
+            this.SaveButton.Margin = new System.Windows.Forms.Padding(6);
             this.SaveButton.Name = "SaveButton";
-            this.SaveButton.Size = new System.Drawing.Size(75, 23);
+            this.SaveButton.Size = new System.Drawing.Size(150, 44);
             this.SaveButton.TabIndex = 6;
             this.SaveButton.Text = "&Save";
             this.SaveButton.UseVisualStyleBackColor = true;
@@ -104,9 +117,10 @@
             // 
             // ResetButton
             // 
-            this.ResetButton.Location = new System.Drawing.Point(226, 87);
+            this.ResetButton.Location = new System.Drawing.Point(452, 167);
+            this.ResetButton.Margin = new System.Windows.Forms.Padding(6);
             this.ResetButton.Name = "ResetButton";
-            this.ResetButton.Size = new System.Drawing.Size(75, 23);
+            this.ResetButton.Size = new System.Drawing.Size(150, 44);
             this.ResetButton.TabIndex = 7;
             this.ResetButton.Text = "&Reset";
             this.ResetButton.UseVisualStyleBackColor = true;
@@ -114,9 +128,9 @@
             // 
             // ChangeForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(314, 122);
+            this.ClientSize = new System.Drawing.Size(624, 209);
             this.Controls.Add(this.ResetButton);
             this.Controls.Add(this.SaveButton);
             this.Controls.Add(this.ReNewPasswordTextBox);
@@ -125,8 +139,9 @@
             this.Controls.Add(this.ReEnterNewPasswordLabel);
             this.Controls.Add(this.NewPaswordLabel);
             this.Controls.Add(this.OldPasswordLabel);
-            this.MaximumSize = new System.Drawing.Size(330, 160);
-            this.MinimumSize = new System.Drawing.Size(330, 160);
+            this.Margin = new System.Windows.Forms.Padding(12);
+            this.MaximumSize = new System.Drawing.Size(650, 280);
+            this.MinimumSize = new System.Drawing.Size(650, 280);
             this.Name = "ChangeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Change passwors";
