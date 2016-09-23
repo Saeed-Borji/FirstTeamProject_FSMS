@@ -94,18 +94,10 @@ namespace MyApplication
 
                 if (oUser == null)
                 {
-                    MessageBox.Show("Your Current Password is not correct!");
+                    MessageBox.Show("Your Old Password is not correct!");
                     OldPasswordTextBox.Text = string.Empty;
                     NewPasswordTextBox.Text = string.Empty;
                     ReNewPasswordTextBox.Text = string.Empty;
-                    OldPasswordTextBox.Focus();
-                    return;
-                }
-
-                if (string.Compare(oUser.Password, OldPasswordTextBox.Text, ignoreCase: false) != 0)
-                {
-                    MessageBox.Show("You Old Password is not correct!");
-                    OldPasswordTextBox.Text = string.Empty;
                     OldPasswordTextBox.Focus();
                     return;
                 }
