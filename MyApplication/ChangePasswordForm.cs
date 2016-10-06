@@ -63,7 +63,7 @@ namespace MyApplication
 
                 return;
             }
-            if (NewPasswordTextBox.Text.Length <8 || ReNewPasswordTextBox.Text.Length < 8)
+            if (NewPasswordTextBox.Text.Length <6 || ReNewPasswordTextBox.Text.Length < 6)
             {
                     MessageBox.Show("Password length should be at least 8 characters!");
             }
