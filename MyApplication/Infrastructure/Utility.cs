@@ -10,5 +10,6 @@ namespace Infrastructure
         }
 
         public static Models.User Authentication { get; set; }
+        //public static Models.Customer CustomersList { get; set; }
     }
 }

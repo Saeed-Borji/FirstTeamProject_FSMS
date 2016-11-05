@@ -73,5 +73,17 @@ namespace MyApplication
             ChangeForm frmChangeForm = new ChangeForm();
             frmChangeForm.Show();
         }
+
+        private void usersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ثبتمشتریToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddCustomer frmAddCustomer = new AddCustomer();
+            frmAddCustomer.Show();
+            
+        }
     }
 }

@@ -12,5 +12,6 @@
 		}
 
 		public System.Data.Entity.DbSet<User> Users { get; set; }
+        //public System.Data.Entity.DbSet<Customer> Customers { get; set; }
 	}
 }
