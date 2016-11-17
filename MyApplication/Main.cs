@@ -81,7 +81,7 @@ namespace MyApplication
 
         private void ثبتمشتریToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AddCustomer frmAddCustomer = new AddCustomer();
+            AddCustomerRadForm frmAddCustomer = new AddCustomerRadForm();
             frmAddCustomer.Show();
             
         }

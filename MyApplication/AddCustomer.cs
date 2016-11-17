@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MyApplication
 {
-    public partial class AddCustomer : Infrastructure.BaseForm
+    public partial class AddCustomerRadForm : Infrastructure.BaseForm
     {
-        public AddCustomer()
+        public AddCustomerRadForm()
         {
             InitializeComponent();
         }
@@ -33,6 +33,11 @@ namespace MyApplication
         }
 
         private void radButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void enternationalCodeRadLabel_Click(object sender, EventArgs e)
         {
 
         }

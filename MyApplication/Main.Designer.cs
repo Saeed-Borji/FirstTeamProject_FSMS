@@ -51,7 +51,7 @@
             this.usersToolStripMenuItem});
             this.MymenuStrip.Location = new System.Drawing.Point(0, 0);
             this.MymenuStrip.Name = "MymenuStrip";
-            this.MymenuStrip.Size = new System.Drawing.Size(331, 42);
+            this.MymenuStrip.Size = new System.Drawing.Size(331, 40);
             this.MymenuStrip.TabIndex = 0;
             this.MymenuStrip.Text = "MymenuStriptxt";
             this.MymenuStrip.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -62,7 +62,7 @@
             this.updateProfileToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.settingToolStripMenuItem.Name = "settingToolStripMenuItem";
-            this.settingToolStripMenuItem.Size = new System.Drawing.Size(113, 38);
+            this.settingToolStripMenuItem.Size = new System.Drawing.Size(113, 36);
             this.settingToolStripMenuItem.Text = "تنظیمات";
             // 
             // updateProfileToolStripMenuItem
@@ -103,7 +103,7 @@
             this.ثبتمشتریToolStripMenuItem,
             this.نمایشمشتریToolStripMenuItem});
             this.usersToolStripMenuItem.Name = "usersToolStripMenuItem";
-            this.usersToolStripMenuItem.Size = new System.Drawing.Size(140, 38);
+            this.usersToolStripMenuItem.Size = new System.Drawing.Size(140, 36);
             this.usersToolStripMenuItem.Text = "حساب داری";
             this.usersToolStripMenuItem.Click += new System.EventHandler(this.usersToolStripMenuItem_Click);
             // 
@@ -142,13 +142,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::MyApplication.Properties.Resources.Background;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(331, 261);
             this.Controls.Add(this.MystatusStrip);
             this.Controls.Add(this.MymenuStrip);
             this.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainMenuStrip = this.MymenuStrip;
             this.Name = "Main";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Main_Load);
