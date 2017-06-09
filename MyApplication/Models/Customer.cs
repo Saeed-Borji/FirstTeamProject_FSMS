@@ -50,6 +50,7 @@ namespace Models
         [System.ComponentModel.DataAnnotations.Schema.Index
             (IsUnique = false)]
         public string Fathername { get; set; }
+
         // **********
 
         // **********NationalCode-کد ملی

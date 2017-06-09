@@ -283,7 +283,7 @@
             this.MaximumSize = new System.Drawing.Size(850, 400);
             this.MinimumSize = new System.Drawing.Size(850, 400);
             this.Name = "AddCustomerRadForm";
-            this.Opacity = 0.85D;
+            this.Opacity = 0.95D;
             this.Text = "ثبت اطلاعات مشتری";
             this.Load += new System.EventHandler(this.AddCustomer_Load);
             ((System.ComponentModel.ISupportInitialize)(this.CleanRadButton)).EndInit();
